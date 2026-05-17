@@ -1,0 +1,62 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"engine/vendor/mio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 144,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "mio-headers::@392cad127f5d063fd024",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "mio::@392cad127f5d063fd024"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "mio::@392cad127f5d063fd024"
+		}
+	],
+	"name" : "mio-headers",
+	"paths" : 
+	{
+		"build" : "engine/vendor/mio",
+		"source" : "engine/vendor/mio"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

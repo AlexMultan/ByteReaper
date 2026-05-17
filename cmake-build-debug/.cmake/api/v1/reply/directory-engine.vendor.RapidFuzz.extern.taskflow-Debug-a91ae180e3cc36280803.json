@@ -1,0 +1,89 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"engine/vendor/RapidFuzz/extern/taskflow/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 347,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 360,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 381,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"engine/vendor/RapidFuzz/extern/taskflow/taskflow"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib64/cmake/Taskflow",
+			"exportName" : "TaskflowTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Taskflow::@c05458a3db2e03a81ad5",
+					"index" : 30
+				}
+			],
+			"paths" : 
+			[
+				"engine/vendor/RapidFuzz/extern/taskflow/CMakeFiles/Export/7715c5baa4b6800da71acdd41bfb5338/TaskflowTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib64/cmake/Taskflow",
+			"paths" : 
+			[
+				"cmake-build-debug/engine/vendor/RapidFuzz/extern/taskflow/TaskflowConfig.cmake",
+				"cmake-build-debug/engine/vendor/RapidFuzz/extern/taskflow/TaskflowConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "engine/vendor/RapidFuzz/extern/taskflow",
+		"source" : "engine/vendor/RapidFuzz/extern/taskflow"
+	}
+}

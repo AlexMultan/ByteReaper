@@ -1,0 +1,177 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"engine/vendor/RapidFuzz/src/rapidfuzz/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "rapidfuzz",
+			"paths" : 
+			[
+				"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/_feature_detector_cpp.cpython-314-x86_64-linux-gnu.so"
+			],
+			"targetId" : "_feature_detector_cpp::@c71c2aebf2962c63584f",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "_feature_detector_cpp::@c71c2aebf2962c63584f",
+				"index" : 31
+			},
+			"destination" : "rapidfuzz",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "rapidfuzz",
+			"paths" : 
+			[
+				"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/utils_cpp.cpython-314-x86_64-linux-gnu.so"
+			],
+			"targetId" : "utils_cpp::@c71c2aebf2962c63584f",
+			"targetIndex" : 41,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "utils_cpp::@c71c2aebf2962c63584f",
+				"index" : 41
+			},
+			"destination" : "rapidfuzz",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "rapidfuzz",
+			"paths" : 
+			[
+				"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/fuzz_cpp.cpython-314-x86_64-linux-gnu.so"
+			],
+			"targetId" : "fuzz_cpp::@c71c2aebf2962c63584f",
+			"targetIndex" : 34,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "fuzz_cpp::@c71c2aebf2962c63584f",
+				"index" : 34
+			},
+			"destination" : "rapidfuzz",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "rapidfuzz",
+			"paths" : 
+			[
+				"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/fuzz_cpp_avx2.cpython-314-x86_64-linux-gnu.so"
+			],
+			"targetId" : "fuzz_cpp_avx2::@c71c2aebf2962c63584f",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "fuzz_cpp_avx2::@c71c2aebf2962c63584f",
+				"index" : 35
+			},
+			"destination" : "rapidfuzz",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "rapidfuzz",
+			"paths" : 
+			[
+				"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/process_cpp_impl.cpython-314-x86_64-linux-gnu.so"
+			],
+			"targetId" : "process_cpp_impl::@c71c2aebf2962c63584f",
+			"targetIndex" : 39,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "process_cpp_impl::@c71c2aebf2962c63584f",
+				"index" : 39
+			},
+			"destination" : "rapidfuzz",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "engine/vendor/RapidFuzz/src/rapidfuzz",
+		"source" : "engine/vendor/RapidFuzz/src/rapidfuzz"
+	}
+}

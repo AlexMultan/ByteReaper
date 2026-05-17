@@ -1,0 +1,19 @@
+{
+	"InstallScripts" : 
+	[
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/SDL/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/imgui/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/spdlog/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/json/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/mio/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/mio/include/mio/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/mio/include/mio/detail/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/RapidFuzz/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/RapidFuzz/extern/taskflow/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/RapidFuzz/extern/rapidfuzz-cpp/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/RapidFuzz/src/rapidfuzz/cmake_install.cmake",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/RapidFuzz/src/rapidfuzz/distance/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,39 @@
+{
+	"bmi-installation" : 
+	{
+		"destination" : "rapidfuzz/distance",
+		"message-level" : "",
+		"permissions" : "",
+		"script-location" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/RapidFuzz/src/rapidfuzz/distance/CMakeFiles/_initialize_cpp.dir/install-cxx-module-bmi-Debug.cmake"
+	},
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/RapidFuzz/src/rapidfuzz/distance",
+	"dir-cur-src" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/RapidFuzz/src/rapidfuzz/distance",
+	"dir-top-bld" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug",
+	"dir-top-src" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/RapidFuzz/src/rapidfuzz",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/RapidFuzz/src/rapidfuzz/distance",
+		"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/RapidFuzz/extern/rapidfuzz-cpp/rapidfuzz/..",
+		"/usr/include/python3.14"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/RapidFuzz/src/rapidfuzz/distance/CMakeFiles/_initialize_cpp.dir",
+	"sources" : 
+	{
+		"engine/vendor/RapidFuzz/src/rapidfuzz/distance/CMakeFiles/_initialize_cpp.dir/_initialize_cpp.cxx.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/RapidFuzz/src/rapidfuzz/distance/_initialize_cpp.cxx"
+		}
+	}
+}

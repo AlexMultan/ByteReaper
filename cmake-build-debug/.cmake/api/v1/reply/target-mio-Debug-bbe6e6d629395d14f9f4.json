@@ -1,0 +1,41 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"engine/vendor/mio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "mio::@392cad127f5d063fd024",
+	"name" : "mio",
+	"paths" : 
+	{
+		"build" : "engine/vendor/mio",
+		"source" : "engine/vendor/mio"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}
