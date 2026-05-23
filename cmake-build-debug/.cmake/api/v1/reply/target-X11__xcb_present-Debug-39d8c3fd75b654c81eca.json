@@ -1,0 +1,84 @@
+{
+	"abstract" : true,
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"find_package",
+			"CheckX11",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"/home/alex/Downloads/clion-2026.1.1/bin/cmake/linux/x64/share/cmake-4.2/Modules/FindX11.cmake",
+			"engine/vendor/SDL/cmake/sdlchecks.cmake",
+			"engine/vendor/SDL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1861,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 290,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 921,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 922,
+				"parent" : 3
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "X11::xcb_present::@6db986ecafbe25d7b2b8",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "X11::xcb::@6db986ecafbe25d7b2b8"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "X11::xcb::@6db986ecafbe25d7b2b8"
+		}
+	],
+	"local" : true,
+	"name" : "X11::xcb_present",
+	"paths" : 
+	{
+		"build" : "engine/vendor/SDL",
+		"source" : "engine/vendor/SDL"
+	},
+	"sources" : [],
+	"type" : "UNKNOWN_LIBRARY"
+}

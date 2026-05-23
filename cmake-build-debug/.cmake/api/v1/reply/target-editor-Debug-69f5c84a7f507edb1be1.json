@@ -1,0 +1,603 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/editor/editor"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"sdl_generic_link_dependency",
+			"sdl_link_dependency",
+			"set_property",
+			"find_package",
+			"set_target_properties",
+			"add_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"engine/vendor/SDL/cmake/sdlcommands.cmake",
+			"engine/vendor/SDL/CMakeLists.txt",
+			"/home/alex/Downloads/clion-2026.1.1/bin/cmake/linux/x64/share/cmake-4.2/Modules/FindOpenGL.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1143,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 831,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 829,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "EngineLib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SDL3-static::@6db986ecafbe25d7b2b8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "OpenGL::GL::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "imgui::@8abbfa9362ae82f0468d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@f80c742b02821268caf6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "nlohmann_json::@35a412d9873eb0133be0"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mio::@392cad127f5d063fd024"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rapidfuzz::@9e0f42217c8f95701c56"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "stb::@6890427a1f51a3e7e1df"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20 -fPIE -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "ENGINE_BUILD_DLL"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ENGINE_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SPDLOG_COMPILED_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/SDL/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/ImGui"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/spdlog/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/editor/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/cmake-build-debug/engine/vendor/SDL/include-revision"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/imgui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/json/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/mio/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/RapidFuzz/extern/rapidfuzz-cpp/rapidfuzz/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/stb"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "EngineLib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SDL3-static::@6db986ecafbe25d7b2b8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "imgui::@8abbfa9362ae82f0468d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@f80c742b02821268caf6"
+		}
+	],
+	"id" : "editor::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-pthread",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/engine",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/engine/libEngine.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/libSDL3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/libimgui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/libspdlogd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib64/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/usr/lib64/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgcc_s_asneeded",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgcc_s_asneeded",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "EngineLib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SDL3-static::@6db986ecafbe25d7b2b8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "OpenGL::GL::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "imgui::@8abbfa9362ae82f0468d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@f80c742b02821268caf6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "nlohmann_json::@35a412d9873eb0133be0"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mio::@392cad127f5d063fd024"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rapidfuzz::@9e0f42217c8f95701c56"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "stb::@6890427a1f51a3e7e1df"
+		}
+	],
+	"name" : "editor",
+	"nameOnDisk" : "editor",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/Editor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/export/CsvExporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/export/CsvExporter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/export/ReportExporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/export/ReportExporter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/panels/AsciiPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/panels/AsciiPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/panels/EntropyPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/panels/EntropyPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/panels/HexViewPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/panels/HexViewPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/panels/MetadataPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/panels/MetadataPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/panels/SearchPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/panels/SearchPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/panels/StringsPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/panels/StringsPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/panels/StructurePanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/panels/StructurePanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/platform/DragDrop.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/platform/DragDrop.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/platform/FileDialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/platform/FileDialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/widgets/ByteColorizer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/widgets/ByteColorizer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/widgets/HexCell.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/widgets/HexCell.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/widgets/StatusBar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/widgets/StatusBar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "editor/src/widgets/Toolbar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/src/widgets/Toolbar.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

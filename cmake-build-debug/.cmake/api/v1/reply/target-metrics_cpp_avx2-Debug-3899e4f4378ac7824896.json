@@ -1,0 +1,300 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/metrics_cpp_avx2.cpython-314-x86_64-linux-gnu.so"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__Python_add_library",
+			"python_add_library",
+			"rf_add_library",
+			"install",
+			"target_link_libraries",
+			"add_custom_command",
+			"create_cython_target",
+			"add_compile_options",
+			"add_compile_definitions",
+			"target_include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"/home/alex/Downloads/clion-2026.1.1/bin/cmake/linux/x64/share/cmake-4.2/Modules/FindPython/Support.cmake",
+			"/home/alex/Downloads/clion-2026.1.1/bin/cmake/linux/x64/share/cmake-4.2/Modules/FindPython.cmake:760:EVAL",
+			"engine/vendor/RapidFuzz/src/rapidfuzz/distance/CMakeLists.txt",
+			"engine/vendor/RapidFuzz/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 40,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4439,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 4448,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 8
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 37,
+				"parent" : 10
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 19,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 72,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "Python::Module::@dd248f383e81bc24d50e"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "rapidfuzz::@9e0f42217c8f95701c56"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20 -flto=auto -fno-fat-lto-objects -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-mavx2"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-pedantic"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-psabi"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 13,
+					"define" : "ENGINE_DEBUG"
+				},
+				{
+					"define" : "metrics_cpp_avx2_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/RapidFuzz/src/rapidfuzz"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/RapidFuzz/src/rapidfuzz/distance"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/engine/vendor/RapidFuzz/extern/rapidfuzz-cpp/rapidfuzz/.."
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/python3.14"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15,
+					7
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "metrics_cpp_avx2::@76fe7d937fec788cf1f4",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "rapidfuzz/distance"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-shared",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX",
+		"lto" : true
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "Python::Module::@dd248f383e81bc24d50e"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "rapidfuzz::@9e0f42217c8f95701c56"
+		}
+	],
+	"name" : "metrics_cpp_avx2",
+	"nameOnDisk" : "metrics_cpp_avx2.cpython-314-x86_64-linux-gnu.so",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "Python::Interpreter::@dd248f383e81bc24d50e"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "engine/vendor/RapidFuzz/src/rapidfuzz/distance",
+		"source" : "engine/vendor/RapidFuzz/src/rapidfuzz/distance"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/engine/vendor/RapidFuzz/src/rapidfuzz/distance/metrics_cpp_avx2.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "engine/vendor/RapidFuzz/src/rapidfuzz/distance/metrics_cpp_avx2.pyx",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

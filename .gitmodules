@@ -1,0 +1,18 @@
+[submodule "engine/vendor/SDL"]
+	path = engine/vendor/SDL
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "engine/vendor/imgui"]
+	path = engine/vendor/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "engine/vendor/stb"]
+	path = engine/vendor/stb
+	url = https://github.com/nothings/stb.git
+[submodule "engine/vendor/mio"]
+	path = engine/vendor/mio
+	url = https://github.com/vimpunk/mio.git
+[submodule "engine/vendor/RapidFuzz"]
+	path = engine/vendor/RapidFuzz
+	url = https://github.com/rapidfuzz/RapidFuzz.git
+[submodule "engine/vendor/json"]
+	path = engine/vendor/json
+	url = https://github.com/nlohmann/json.git

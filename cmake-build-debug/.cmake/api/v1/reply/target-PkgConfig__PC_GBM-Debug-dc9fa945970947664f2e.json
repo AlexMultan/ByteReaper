@@ -1,0 +1,87 @@
+{
+	"abstract" : true,
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_pkg_create_imp_target",
+			"_pkg_recalculate",
+			"pkg_check_modules",
+			"CheckKMSDRM",
+			"set_property"
+		],
+		"files" : 
+		[
+			"/home/alex/Downloads/clion-2026.1.1/bin/cmake/linux/x64/share/cmake-4.2/Modules/FindPkgConfig.cmake",
+			"engine/vendor/SDL/cmake/sdlchecks.cmake",
+			"engine/vendor/SDL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1866,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1373,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1174,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 813,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 787,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 794,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "PkgConfig::PC_GBM::@6db986ecafbe25d7b2b8",
+	"imported" : true,
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 6,
+			"fragment" : "/usr/lib64/libgbm.so"
+		}
+	],
+	"local" : true,
+	"name" : "PkgConfig::PC_GBM",
+	"paths" : 
+	{
+		"build" : "engine/vendor/SDL",
+		"source" : "engine/vendor/SDL"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

@@ -1,0 +1,8 @@
+//
+// Created by alex on 5/4/26.
+//
+
+#ifndef BYTEREAPER_SEARCHENGINE_H
+#define BYTEREAPER_SEARCHENGINE_H
+
+#endif //BYTEREAPER_SEARCHENGINE_H

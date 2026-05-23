@@ -1,0 +1,119 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"engine/vendor/RapidFuzz/src/rapidfuzz/distance/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "rapidfuzz/distance",
+			"paths" : 
+			[
+				"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/_initialize_cpp.cpython-314-x86_64-linux-gnu.so"
+			],
+			"targetId" : "_initialize_cpp::@76fe7d937fec788cf1f4",
+			"targetIndex" : 32,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "_initialize_cpp::@76fe7d937fec788cf1f4",
+				"index" : 32
+			},
+			"destination" : "rapidfuzz/distance",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "rapidfuzz/distance",
+			"paths" : 
+			[
+				"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/metrics_cpp.cpython-314-x86_64-linux-gnu.so"
+			],
+			"targetId" : "metrics_cpp::@76fe7d937fec788cf1f4",
+			"targetIndex" : 37,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "metrics_cpp::@76fe7d937fec788cf1f4",
+				"index" : 37
+			},
+			"destination" : "rapidfuzz/distance",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "rapidfuzz/distance",
+			"paths" : 
+			[
+				"/run/media/alex/57016d74-ac9c-46d4-bb38-da9f9a681708/ByteReaper/bin/Debug-x64/metrics_cpp_avx2.cpython-314-x86_64-linux-gnu.so"
+			],
+			"targetId" : "metrics_cpp_avx2::@76fe7d937fec788cf1f4",
+			"targetIndex" : 38,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "metrics_cpp_avx2::@76fe7d937fec788cf1f4",
+				"index" : 38
+			},
+			"destination" : "rapidfuzz/distance",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "engine/vendor/RapidFuzz/src/rapidfuzz/distance",
+		"source" : "engine/vendor/RapidFuzz/src/rapidfuzz/distance"
+	}
+}

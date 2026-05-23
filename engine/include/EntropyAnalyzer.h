@@ -1,0 +1,8 @@
+//
+// Created by alex on 5/4/26.
+//
+
+#ifndef BYTEREAPER_ENTROPYANALYZER_H
+#define BYTEREAPER_ENTROPYANALYZER_H
+
+#endif //BYTEREAPER_ENTROPYANALYZER_H

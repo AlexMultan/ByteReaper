@@ -1,0 +1,96 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"engine/vendor/mio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "engine/vendor/mio/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/mio",
+			"exportName" : "mioTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "mio::@392cad127f5d063fd024",
+					"index" : 73
+				},
+				{
+					"id" : "mio-headers::@392cad127f5d063fd024",
+					"index" : 74
+				}
+			],
+			"paths" : 
+			[
+				"engine/vendor/mio/CMakeFiles/Export/771001dab16db1fc759fdc4e52dc45e7/mio-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/mio",
+			"paths" : 
+			[
+				"cmake-build-debug/engine/vendor/mio/mio-config-version.cmake",
+				"cmake-build-debug/engine/vendor/mio/mio-config.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "engine/vendor/mio",
+		"source" : "engine/vendor/mio"
+	}
+}

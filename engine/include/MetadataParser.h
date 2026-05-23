@@ -1,0 +1,8 @@
+//
+// Created by alex on 5/4/26.
+//
+
+#ifndef BYTEREAPER_METADATAPARSER_H
+#define BYTEREAPER_METADATAPARSER_H
+
+#endif //BYTEREAPER_METADATAPARSER_H

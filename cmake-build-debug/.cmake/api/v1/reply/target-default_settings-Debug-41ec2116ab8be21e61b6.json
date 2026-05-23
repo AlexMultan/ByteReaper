@@ -1,0 +1,62 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"engine/vendor/RapidFuzz/extern/taskflow/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "default_settings::@c05458a3db2e03a81ad5",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "error_settings::@c05458a3db2e03a81ad5"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "error_settings::@c05458a3db2e03a81ad5"
+		}
+	],
+	"name" : "default_settings",
+	"paths" : 
+	{
+		"build" : "engine/vendor/RapidFuzz/extern/taskflow",
+		"source" : "engine/vendor/RapidFuzz/extern/taskflow"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

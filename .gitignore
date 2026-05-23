@@ -1,0 +1,10 @@
+.vs/
+bin/
+bit-int/
+
+*.user
+*.vcxproj
+*.filters
+*.sln
+
+!/vendor/bin/
